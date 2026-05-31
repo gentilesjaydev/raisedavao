@@ -1,7 +1,5 @@
 # RAISE DAVAO - Covenant of Commitment System
 
-![RAISE Davao](https://img.shields.io/badge/Project-RAISE%_Davao-0ea5e9?style=for-the-badge)
-
 A complete digital signing and document generation system for the **Regional Alliance for Industry-Supported Skills & Education in IT (RAISE) Davao**. This application manages the digital signing of the "Covenant of Commitment", automatic PDF generation with signatures, email delivery, and a live "Signature Wall" for events.
 
 ## Features
