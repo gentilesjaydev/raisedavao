@@ -20,7 +20,7 @@ if (file_exists($envFile)) {
 // Replace this with your actual Brevo API Key or set it in .env
 define('BREVO_API_KEY', getenv('BREVO_API_KEY') ?: '');
 
-function sendCovenantEmail($recipient_email, $recipient_name, $pdf_path)
+function sendCovenantEmail(string $recipient_email, string $recipient_name, string $pdf_path): bool
 {
 
     $url = "https://api.brevo.com/v3/smtp/email";
